@@ -35,8 +35,7 @@ namespace LoLAutoQueue
         private void LoLLauncherHandler_Load(object sender, EventArgs e)
         {
             CheckForUpdate();
-            EditCfg();
-            if (System.IO.File.Exists("acc.txt"))
+                      if (System.IO.File.Exists("acc.txt"))
             {
                 LoadFile("acc.txt");
             }
